@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-8">
+        @using (Html.BeginForm("Post", "Home", FormMethod.Post))
+        {
+            <div class="form-group">
+                <label for="key">Chave a ser salvo em cache</label>
+                <input type="text" name="key" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="value">Valor a ser salvo em cache</label>
+                <input type="text" name="value" class="form-control" required />
+            </div>
+            <button type="submit" class="btn btn-success">Salvar</button>
+        }
+    </div>
+    <div class="col-4">
+        @if (!string.IsNullOrEmpty(ViewBag.MemoryCache))
+        {
+            <h4>Memory Cache: @ViewBag.MemoryCache</h4>
+        }
+        @if (!string.IsNullOrEmpty(ViewBag.DistributedCache))
+        {
+            <h4>Memory Cache: @ViewBag.DistributedCache</h4>
+        }
+    </div>
+</div>

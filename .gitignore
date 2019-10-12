@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs/Dotnet.Cache
+/src/Dotnet.Cache.Web/obj
+/src/Dotnet.Cache.Web/bin/Debug/netcoreapp3.0

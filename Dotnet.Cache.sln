@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29403.142
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.Cache.Web", "src\Dotnet.Cache.Web\Dotnet.Cache.Web.csproj", "{B12708D1-BA5D-461D-95D8-E433AB98FDCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B12708D1-BA5D-461D-95D8-E433AB98FDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B12708D1-BA5D-461D-95D8-E433AB98FDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B12708D1-BA5D-461D-95D8-E433AB98FDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B12708D1-BA5D-461D-95D8-E433AB98FDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C0D6DFE-0DD4-47D0-B9F1-4C2B91948061}
+	EndGlobalSection
+EndGlobal
